@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Sign Up</a></li>
+
+        </ul>
+    </nav>
+</header>
+<div class="main-container">
+    <div class="form-container">
+        <h2>Register Form</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><i class="fa-solid fa-envelope"></i>Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password"> <i class="fa-solid fa-key"></i>Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm password"><i class="fa-solid fa-key"></i>Confirm Password:</label>
+                <input type="password" id="confirm password" name="confirm password">
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male"><i class="fa-solid fa-person"></i>Male</label>
+                    <label> <input type="radio" name="gender" value="female"><i class="fa-solid fa-person-dress"></i>Female</label>
+                    <label> <input type="radio" name="gender" value="other">Other</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="county">County:</label>
+                <select name="county" id="county">
+                    <option value="" disabled selected>select your county</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Nakuru">Nakuru</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit"><i class="fa-solid fa-user-plus"></i>Register</button>
+            </div>
+        </form>
+        <div class="note">
+            Already have an existing account? <a href="">Login Here</a>
+        </div>
+    </div>
+    <div class="table container">
+        <h2>A table With Users Registered</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>County</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Jo+yce kinyanjui</td>
+                <td>jo+yce@gmail.com</td>
+                <td> Female</td>
+                <td>Nairobi</td>
+            </tr>
+            <tr>
+                <td>Veronicah waceke</td>
+                <td>vero@gmail.com</td>
+                <td> Female</td>
+                <td>Nakuru</td>
+            </tr>
+            <tr>
+                <td>kevin wainana</td>
+                <td>kevin@gmail.com</td>
+                <td> male</td>
+                <td>Nairobi</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>

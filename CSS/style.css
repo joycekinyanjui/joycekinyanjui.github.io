@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, sans-serif;
+    margin : 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav{
+   display: flex;
+   justify-content: flex-end;
+   background-color: black;
+   padding: 10px;
+}
+nav ul{
+      display: flex;
+      list-style: none;
+      background-color: black;
+      padding: 20px;
+      margin:0 0 0 auto;
+}
+nav ul li{
+            margin-right: 170px;
+}
+nav ul li a{
+           color:white;
+           text-decoration: none;
+           font-size: 18px;
+}
+nav ul li a:hover{
+                 background-color: cyan;
+                 color:black;
+                 padding:10px;
+                 border-radius:5px;
+}
+/*hero section*/
+.Hero-image{
+           background-image: url("https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_1280.jpg");
+           background-size: cover;
+           background-position: centre;
+           height: 600px;
+           position; relative;/*so that the text can move around effectively*/
+}
+.Hero-text{
+          position: absolute;
+          bottom: 50px;/*avoid sspace azin 50 px*/
+          left: 50px;
+
+}
+.Hero-text h1{
+                font-size:40px;
+                margin:0px;
+}
+.Hero-text p{
+            font-size:22px;
+}
+#reg-button:hover{/*#to identify id*/
+                  background-color:white;
+                  color: black;
+                  padding:10px 10px;
+                  border:none;
+                  cursor: pointer;
+                  font-size:14px;
+
+
+}
+/*facilities*/
+.Gallery{
+        display:flex;
+        justify-content:space between;
+        padding:20px;
+}
+.Gallery img{
+            width:30%;
+            border-radius:8px;/*makes edges smoother*/
+            height:30vh;
+}
+/*form style*/
+.main-container{
+               display:flex;
+               padding: 30px;
+               gap: 130px;
+}
+.form-container{
+               width: 470px;
+               background-color: white;
+               padding:50px;
+               border radius:14px;
+               box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+h2{
+   text-align: center;
+   margin-bottom:20px;
+   font-weight:700;
+   color:#333;
+}
+.form-group{
+            margin-bottom: 15px;
+}
+.form-group label{
+                  display:block;
+}
+.form-group{
+            margin-bottom: 15px;
+}
+.form-group label{
+                  display: block;
+                  font-weight: 400;
+                  color: #666;
+}
+.form-group input,
+.form-group select{
+                   width:100%;
+                   padding:12px;
+                   border: 1px solid #ddd;
+                   border-radius: 8px;
+                   font-size:14px;
+}
+.form-group button{
+                   width: 100%;
+                   padding:12px;
+                   background-color: #007bff;
+                   color: white;
+                   border:none;
+                   border-radius:8px;
+                   font-size: 14px;
+                   font-weight:400;
+                   cursor:pointer;
+
+}
+.radio-group{
+            display:flex;
+            justify-content: space-between;
+            margin-bottom:10px;
+
+}
+/*table styles*/
+.table-container{
+                 width:500px%;
+                 padding: 20px;
+                 border-radius: 12px;
+                 background-color: #f0f0f0;
+                 box-shadow:0 8px 24px rgba(0,0,0,0.1);
+}
+table{
+      width:100%;
+      margin-top: 10px;
+      border-collapse: collapse;
+}
+table,th,td{
+            border: 1px solid black;
+}
+th,td{
+      padding:12px;
+      text-align: left;
+}
+h1{
+   text-align: center;
+   font-family: Arial, sans-serif;
+   margin-bottom: 60px;
+}
+.gallery{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+}
+.gallery_item{
+              width: 400px;
+              background-color: #666;
+              padding: 10px;
+              box-shadow: 0 2px rgba(0,0,0,0.1);
+              border-radius: 10px;
+}
+.gallery_item iframe{
+                    width: 100%;
+                    height: 200px;
+}
+.contact-container{
+                  display: flex;
+                  flex-direction:column;
+                  align-items:center;
+                  gap:20px;
+
+}
+.contact-details{
+                background-color: #f0f0f0;
+                padding:20px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                border-radius: 8px;
+                max-width: 600px;
+                width:100%;
+
+}
+.contact-details h2{
+                    margin-top:0;
+                    font-family: Arial, sans-serif;
+
+}
+.contact-details p{
+                  margin: 5px 0;
+
+}
+iframe{
+       border:none;
+       width:100%;
+       margin-bottom:20px;
+       border-radius:8px;
+}
+.carousel-inner img{
+                    width:100%;
+                    height:10       0vh;
+}
